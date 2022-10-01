@@ -6,7 +6,7 @@ def primes(number_of_primes):
     num = 1
     while len(list) < number_of_primes:
         flag = True
-        for i in range(1, num):
+        for i in range(2, num):
             if(num % i ==0):
                 flag = False
         if(flag):
