@@ -3,7 +3,7 @@
 
 def primes(number_of_primes):
     list = []
-    num = 1
+    num = 2
     while len(list) < number_of_primes:
         flag = True
         for i in range(2, num):
